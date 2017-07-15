@@ -1,0 +1,61 @@
+.routing {
+  padding: 2%;
+}
+.routing .select {
+  padding-top: 10%;
+}
+img.type {
+  height: 200px;
+}
+img.options {
+  height: 80px;
+}
+div a.btn {
+  width: 320px;
+}
+.select div, .options div {
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+}
+.select p {
+  font-size: 2em;
+}
+/******** media **********/
+@media screen and (max-width: 992px)  {
+  .select p {
+    font-size: 1.6em;
+  }
+  div a.btn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px)  {
+  .select p {
+    font-size: 1.3em;
+  }
+  img.type {
+    height: 100px;
+  }
+  div a.btn {
+    width: 100%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 320px)  {
+  h1{
+    font-size: 1.8em;
+  }
+  .select p{
+    font-size: 1em;
+  }
+  img.type {
+    height: 80px;
+  }
+  div a.btn {
+    width: 100%;
+  }
+}
